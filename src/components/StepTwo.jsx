@@ -1,4 +1,4 @@
-import { useState } from "react.jsx";
+import { useState } from "react";
 import ProgressBar from "./ProgressBar.jsx";
 import Navigation from "./Navigation.jsx";
 import useFormValidation from "../hooks/useFormValidation.js";
