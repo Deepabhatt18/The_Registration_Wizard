@@ -1,0 +1,66 @@
+body {
+  font-family: Arial;
+  background: #f5f7fa;
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.progress {
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.input-group input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.password-box {
+  display: flex;
+}
+
+.password-box input {
+  flex: 1;
+}
+
+.password-box button {
+  padding: 5px 10px;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.nav-buttons button {
+  padding: 10px;
+  border: none;
+  background: #4a90e2;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.nav-buttons button:disabled {
+  background: #ccc;
+}
+
+.review {
+  text-align: left;
+  margin-top: 15px;
+}
