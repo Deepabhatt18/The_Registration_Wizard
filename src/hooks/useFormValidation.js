@@ -3,7 +3,7 @@ import {
   validatePassword,
   matchPassword,
   validateStepOne
-} from "../utils/validators";
+} from "../utils/Validators.js";
 
 const useFormValidation = (formData) => {
 

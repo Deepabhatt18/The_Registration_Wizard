@@ -1,5 +1,5 @@
-import ProgressBar from "./ProgressBar";
-import Navigation from "./Navigation";
+import ProgressBar from "./ProgressBar.jsx";
+import Navigation from "./Navigation.jsx";
 
 const StepThree = ({ formData, step, setStep }) => {
    const handleSubmit = () => {

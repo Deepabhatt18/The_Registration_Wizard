@@ -1,6 +1,6 @@
-import ProgressBar from "./ProgressBar";
-import Navigation from "./Navigation";
-import useFormValidation from "../hooks/useFormValidation";
+import ProgressBar from "./ProgressBar.jsx";
+import Navigation from "./Navigation.jsx";
+import useFormValidation from "../hooks/useFormValidation.js";
 
 const StepOne = ({ formData, setFormData, step, setStep }) => {
   const { stepOneValid } = useFormValidation(formData);

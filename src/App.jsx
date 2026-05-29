@@ -1,8 +1,8 @@
 import { useState } from "react";
-import StepOne from "./components/StepOne";
-import StepTwo from "./components/StepTwo";
-import StepThree from "./components/StepThree";
-import Success from "./components/Success";
+import StepOne from "./components/StepOne.jsx";
+import StepTwo from "./components/StepTwo.jsx";
+import StepThree from "./components/StepThree.jsx";
+import Success from "./components/Success.jsx";
 
 function App() {
   const [step, setStep] = useState(1);

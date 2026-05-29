@@ -1,7 +1,7 @@
-import { useState } from "react";
-import ProgressBar from "./ProgressBar";
-import Navigation from "./Navigation";
-import useFormValidation from "../hooks/useFormValidation";
+import { useState } from "react.jsx";
+import ProgressBar from "./ProgressBar.jsx";
+import Navigation from "./Navigation.jsx";
+import useFormValidation from "../hooks/useFormValidation.js";
 
 const StepTwo = ({ formData, setFormData, step, setStep }) => {
 
